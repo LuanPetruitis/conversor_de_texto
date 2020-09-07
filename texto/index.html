@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/imagem/livro.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Acabou deixando o caps lock ativado e digitou algo, mas não se dá ao trabalho de começar de novo e redigitar tudo?</h1>
+        <textarea name="texto" id="texto" cols="190" rows="20" placeholder="Digite um texto que deseja converter para qualquer das opções a baixo"></textarea> <br>
+        <div id="botoes">
+            <input type="button" value="Maiusculas" class="convert" onclick="convertMaiusc()">
+            <input type="button" value="Minusculas" class="convert" onclick="convertMinusc()">
+            <input type="button" value="Primeiras Maiusculas" class="converts" onclick="primeiraMaiusc()">
+        </div>
+        <div id="campo"></div>
+        <div id="text">
+            <h2>Bem-vindo à ferramenta Conversor de texto</h2>
+            <p>Uma ferramenta de texto online muito útil onde você pode deixar as primeiras letras de cada palavra maiúsculas, onde você pode o texto todo em maiúscilo, colocar também o seu texto em minúsculo.
+            </p>
+            <h3>Caixa de frase</h3>
+            <p> O conversor de maiúsculas e minúsculas permitirá que você cole qualquer texto que desejar.
+            </p>
+            <h3>Este é um exemplo de caso de frase.
+            </h3>
+            <h4>Maiúsculas</h4>
+            <p>
+                O transformador de maiúsculas vai pegar o texto que você colocou no campo de prenchimento e gerará todas as letras em maiúsculas. Essencialmente, ele transformará todas as letras minúsculas em MAIÚSCULAS, pois vai manter as que ja estão em maiúsculas
+                da mesma forma.
+            </p>
+            <h4> Minúsculas</h4>
+            <p>
+                Se você está se perguntando como tirar a letra maiúscula, é exatamente isso que o conversor de texto em minúsculas permite que você faça, ele transforma todas as letras do seu texto em minúsculas. Simplesmente copie o texto que você precisa gerar em minúsculas
+                e cole o texto na caixa acima e selecione a guia 'minúsculas'.
+            </p>
+        </div>
+    </div>
+    <script src="format.js"></script>
+
+</html>
